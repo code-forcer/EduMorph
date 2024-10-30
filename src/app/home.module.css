@@ -1,0 +1,250 @@
+/* Home.module.css */
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.header {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+.siteTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: green;
+}
+
+.desktopMenu .loginButton{
+    margin: auto;
+}
+
+.loginButton {
+    color: #333;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.mobileMenuIcon {
+    display: block;
+    float: right;
+    margin-top: -30px;
+}
+
+.hamburgerIcon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+}
+
+.mobileMenu {
+    display: block;
+    padding-top: 4px;
+}
+
+.mobileLoginButton {
+    display: block;
+    width: 100%;
+    color: #333;
+    background-color: transparent;
+    border: none;
+    text-align:right;
+    cursor: pointer;
+}
+
+.heroSection {
+    background-color: #f8f8f8;
+    padding: 3rem 0;
+    display: flex;
+    width: 100%;
+}
+
+.cardGreen {
+    background-color: #dfffd4;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.comingSoonBadge {
+   float: left;
+    background-color: #00b300;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 16px;
+    font-size: 0.75rem;
+}
+
+.cardWhite {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.icon {
+    margin: 0 auto 1rem;
+    width: 64px;
+    height: 64px;
+}
+
+.cardTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cardText {
+    color: #555;
+    margin-top: 0.5rem;
+}
+
+.link {
+    color: green;
+    font-weight: bold;
+}
+
+.signUpButton {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    background-color: #00b300;
+    color: white;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.whyJoinSection {
+    background-color: #f1f1f1;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.whyJoinTitle {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.whyJoinText {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #555;
+}
+
+.highlightedText {
+    color: green;
+    font-weight: bold;
+}
+
+.benefitCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.benefitCard {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.footerLinks {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footerLink {
+    color: white;
+    text-decoration: none;
+}
+
+/* Other styles remain unchanged */
+
+.desktopMenu {
+    display: flex;
+    gap: 1rem;
+}
+
+.mobileMenuIcon {
+    display: none;
+}
+
+.hamburgerIcon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+}
+
+/* Mobile Menu */
+.mobileMenu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: max-height 0.3s ease;
+    overflow: hidden;
+    max-height: 0;
+}
+
+.showMenu {
+    display: block;
+    max-height: 300px;
+    /* Adjust based on menu content */
+}
+
+.mobileLoginButton {
+    display: block;
+    width: 100%;
+    color: #333;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .desktopMenu {
+        display: none;
+    }
+
+    .mobileMenuIcon {
+        display: block;
+    }
+
+    .benefitCards {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,110 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: #fff;
+    /* Adjust as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    /* Adjust size */
+    height: 40px;
+    margin-right: 10px;
+}
+
+.siteTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1ea40c;
+}
+
+.hamburger {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+    /* Hide on desktop */
+}
+
+/* Desktop Menu Styles */
+.desktopMenu {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    /* Space between links */
+}
+
+.navLinkDesktop {
+    text-decoration: none;
+    color: #333;
+    /* Adjust as needed */
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Mobile Menu Styles */
+.mobileMenu {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    /* Hide off-screen */
+    height: 100%;
+    width: 250px;
+    background-color: #fff;
+    /* Adjust as needed */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease;
+    /* Animation */
+    padding: 20px;
+}
+
+.mobileMenuOpen {
+    right: 0;
+    /* Show menu */
+}
+
+.navLinkMobile {
+    display: block;
+    margin: 20px 0;
+    text-decoration: none;
+    color: #333;
+    /* Adjust as needed */
+    font-size: 1.2rem;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+        /* Show on mobile */
+    }
+
+    .header {
+        padding: 10px 15px;
+    }
+
+    .navLinkMobile {
+        font-size: 1.5rem;
+    }
+
+    .desktopMenu {
+        display: none;
+        /* Hide on mobile */
+    }
+}
+
+@media (min-width: 769px) {
+    .mobileMenu {
+        display: none;
+        /* Hide mobile menu on desktop */
+    }
+}

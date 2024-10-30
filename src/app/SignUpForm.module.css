@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.signInText {
+    font-family: var(--font-geist-sans), sans-serif;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.signInText a {
+    color: #111;
+    font-size: 1rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.title {
+    font-family: var(--font-geist-sans), sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-family: var(--font-geist-sans), sans-serif;
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+}
+
+.input {
+    font-family: var(--font-geist-sans), sans-serif;
+    font-size: 0.95rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    outline: none;
+    font-weight: bold;
+}
+
+.input::placeholder {
+    color: #aaa;
+}
+
+.joinButton {
+    font-family: var(--font-geist-sans), sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #00e000;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.orText {
+    font-family: var(--font-geist-sans), sans-serif;
+    font-size: 0.9rem;
+    color: #888;
+    margin: 1.5rem 0;
+}
+
+.socialButtons {
+    display: flex;
+    gap: 1rem;
+}
+
+.socialButton {
+    font-family: var(--font-geist-sans), sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #00e000;
+    /* Adjust color for individual platforms */
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    flex: 1;
+    display: flex;
+}

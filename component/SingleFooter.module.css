@@ -1,0 +1,101 @@
+/* General Footer Styling */
+.footer {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'GeistSans', sans-serif;
+    color: #fff;
+    width: 100%;
+    border-top: 1px solid #ddd;
+}
+
+/* Layout for Footer Content */
+.footerContent {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+/* Column Styling */
+.footerLinks,
+.contactInfo,
+.socialLinks {
+    flex: 1;
+    min-width: 150px;
+}
+
+.footer h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #1ea40c;
+    text-decoration: underline;
+}
+
+/* Footer Links Styling */
+.footerLinks a,
+.socialLinks a {
+    display: block;
+    color: #fff;
+    margin: 5px 0;
+}
+
+.footerLinks a:hover,
+.socialLinks a:hover {
+    color: #4caf50;
+    /* Change this color for hover effect */
+}
+
+/* Contact Info Styling */
+.contactInfo p {
+    margin: 5px 0;
+}
+
+/* Footer Bottom Styling */
+.footerBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+/* Bottom Links Styling */
+.bottomLinks a {
+    margin-left: 10px;
+    color: #1ea40c;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.bottomLinks a:hover {
+    color: #4caf50;
+}
+.copyright span{
+    color: #ce1212;
+    font-weight: bold;
+}
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+
+    /* Stack the columns vertically on smaller screens */
+    .footerContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Center-align footer bottom text and links */
+    .footerBottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bottomLinks a {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+}

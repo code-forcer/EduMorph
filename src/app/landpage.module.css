@@ -1,0 +1,149 @@
+
+.searchContainer {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.searchInput {
+    width: 50%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+/* Course Section */
+.courseSection {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.courseCard {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 30%;
+    text-align: center;
+}
+
+.courseImage {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.comingSoonBadge {
+    top: 1rem;
+    right: 1rem;
+    background-color: black;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.courseTitle {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+}
+
+.courseDescription {
+    color: #555;
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+}
+
+.accessButton {
+    background-color: #28a745;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footerLinks,
+.contactInfo,
+.socialLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footerLinks h3,
+.contactInfo h3,
+.socialLinks h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Media Queries */
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+        /* Hide nav links */
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    /* Hamburger Icon */
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        font-size: 1.5rem;
+    }
+
+    /* Show dropdown menu */
+    .mobileMenu {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+    }
+
+    .navLink {
+        margin: 0.5rem 0;
+    }
+
+    .searchInput {
+        width: 90%;
+    }
+
+    .courseSection {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .courseCard {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .footer {
+        padding: 1rem;
+    }
+}

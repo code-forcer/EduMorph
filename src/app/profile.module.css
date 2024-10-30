@@ -1,0 +1,167 @@
+/* pages/profile.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f7f9fc;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navIcons {
+    display: flex;
+    gap: 1rem;
+}
+
+.navLink {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    flex-grow: 1;
+}
+
+@media (min-width: 768px) {
+    .main {
+        flex-direction: row;
+    }
+}
+
+.sidebar {
+    flex: 1;
+    max-width: 300px;
+}
+
+.profileCard {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profileImage {
+    margin-bottom: 1rem;
+}
+
+.profileName {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.profileBio {
+    color: #6b7280;
+    margin-top: 0.5rem;
+}
+
+.editButton {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: #22c55e;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.content {
+    flex: 3;
+}
+
+.section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sectionTitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.graphPlaceholder {
+    height: 150px;
+    background-color: #e5e7eb;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9ca3af;
+}
+
+.nftGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.nftCard {
+    background-color: #ecfdf5;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.nftTitle {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #065f46;
+}
+
+.nftButton {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #065f46;
+    background-color: #fff;
+    border: 1px solid #065f46;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f3f4f6;
+    border-top: 1px solid #e5e7eb;
+}
+
+.footerText {
+    color: #9ca3af;
+    margin-bottom: 0.5rem;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footerLink {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.footerLink:hover {
+    text-decoration: underline;
+}

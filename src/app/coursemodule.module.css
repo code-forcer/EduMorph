@@ -1,0 +1,153 @@
+/* pages/courseModules.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f7f9fc;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.navLink {
+    color: #111;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .main {
+        flex-direction: row;
+    }
+}
+
+.modulesSection {
+    flex: 3;
+}
+
+.sectionTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.moduleGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    .moduleGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.moduleCard {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.moduleTitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.moduleDescription {
+    color: #6b7280;
+    margin-bottom: 1rem;
+}
+
+.moduleStatus {
+    color: #10b981;
+    font-weight: bold;
+}
+
+.moduleProgress {
+    color: #6b7280;
+}
+
+.evolutionSection {
+    flex: 1;
+    background-color: #d1fae5;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.avatar {
+    margin-bottom: 1rem;
+    border-radius: 50%;
+}
+
+.progressBar {
+    width: 100%;
+    background-color: #e5e7eb;
+    border-radius: 4px;
+    height: 8px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.progressFill {
+    height: 100%;
+    background-color: #10b981;
+}
+
+.progressText {
+    color: #6b7280;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f3f4f6;
+    border-top: 1px solid #e5e7eb;
+}
+
+.footerText {
+    color: #9ca3af;
+    margin-bottom: 0.5rem;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footerLink {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.footerLink:hover {
+    text-decoration: underline;
+}

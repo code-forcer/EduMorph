@@ -1,0 +1,36 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    /* White text for better contrast */
+}
+
+.heroContent {
+    max-width: 100%;
+    /* Constrain width for better readability */
+    background: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+.heroTitle {
+    font-size: 2.5rem;
+    /* Large font size for the title */
+    margin-bottom: 10px;
+}
+
+.heroSubtitle {
+    font-size: 1.5rem;
+    /* Subtitle size */
+    margin-bottom: 20px;
+}
+
+.heroDescription {
+    font-size: 1.2rem;
+    /* Description size */
+}
