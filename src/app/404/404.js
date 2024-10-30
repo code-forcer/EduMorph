@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from './Custom404.module.css';  // Assuming you'll create this CSS module
+import styles from '../Custom404.module.css';  // Assuming you'll create this CSS module
 
 const Custom404 = () => {
   return (
