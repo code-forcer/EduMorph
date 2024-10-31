@@ -15,7 +15,7 @@ export default function ProfilePage() {
           <div className={styles.profileCard}>
             <div className={styles.profileImage}>
               <Image
-                src="/illustrations.png" // Update this path
+                src="/cartoon-man-wearing-glasses (1).jpg" // Update this path
                 alt="Profile Picture"
                 width={100}
                 height={100}
@@ -31,7 +31,9 @@ export default function ProfilePage() {
         <section className={styles.content}>
           <div className={styles.section}>
             <h3 className={styles.sectionTitle}>Progress Overview</h3>
-            <div className={styles.graphPlaceholder}>Graph here</div>
+            <div className={styles.graphPlaceholder}><Image src='/graph.jpg'  alt="Graph"
+                width={200}
+                height={120}/></div>
           </div>
 
           <div className={styles.section}>

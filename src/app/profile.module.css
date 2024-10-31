@@ -2,6 +2,7 @@
 
 .container {
     display: flex;
+    font-family: "--font-geist-sans";
     flex-direction: column;
     min-height: 100vh;
     background-color: #f7f9fc;
@@ -61,7 +62,9 @@
 .profileImage {
     margin-bottom: 1rem;
 }
-
+.profileImage .image{
+    border-radius: 25px;
+}
 .profileName {
     font-size: 1.25rem;
     font-weight: bold;
@@ -78,7 +81,7 @@
     color: #fff;
     background-color: #22c55e;
     border: none;
-    border-radius: 4px;
+    border-radius: 15px;
     cursor: pointer;
 }
 
@@ -135,7 +138,7 @@
     color: #065f46;
     background-color: #fff;
     border: 1px solid #065f46;
-    border-radius: 4px;
+    border-radius: 15px;
     cursor: pointer;
 }
 

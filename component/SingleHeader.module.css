@@ -4,6 +4,7 @@
     align-items: center;
     padding: 10px 20px;
     width: 100%;
+    font-family: var(--font-geist-sans), sans-serif;
     background-color: #fff;
     /* Adjust as needed */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -15,9 +16,9 @@
 }
 
 .logo {
-    width: 40px;
+    width: 60px;
     /* Adjust size */
-    height: 40px;
+    height: 60px;
     margin-right: 10px;
 }
 
@@ -25,6 +26,7 @@
     font-size: 1.5rem;
     font-weight: bold;
     color: #1ea40c;
+    text-decoration: underline;
 }
 
 .hamburger {
@@ -37,7 +39,7 @@
 /* Desktop Menu Styles */
 .desktopMenu {
     display: flex;
-    gap: 20px;
+    gap: 20px;font-family: var(--font-geist-sans), sans-serif;
     text-align: center;
     /* Space between links */
 }
@@ -65,6 +67,7 @@
     transition: right 0.3s ease;
     /* Animation */
     padding: 20px;
+    font-family: var(--font-geist-sans), sans-serif;
 }
 
 .mobileMenuOpen {

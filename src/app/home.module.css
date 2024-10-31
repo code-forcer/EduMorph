@@ -2,6 +2,7 @@
 
 .container {
     width: 100%;
+    font-family: var(--font-geist-sans), sans-serif;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -57,7 +58,14 @@
     display: block;
     padding-top: 4px;
 }
-
+.cardWhite img{
+    border-radius: 5px;
+    width: 100px;
+}
+.cardGreen img{
+    border-radius: 5px;
+    width: 100px;
+}
 .mobileLoginButton {
     display: block;
     width: 100%;
@@ -73,6 +81,7 @@
     padding: 3rem 0;
     display: flex;
     width: 100%;
+    
 }
 
 .cardGreen {
@@ -164,7 +173,10 @@
     border-radius: 8px;
     text-align: center;
 }
-
+.benefitCards .benefitCard img{
+    border-radius: 5px;
+    width: 100px;
+}
 .footer {
     background-color: #333;
     color: white;

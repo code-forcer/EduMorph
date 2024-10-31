@@ -56,7 +56,7 @@ const ScholarshipPage = () => {
       <section className={styles.testimonials}>
         <h2>Testimonials</h2>
         <div className={styles.testimonial}><img src='/illustrations.png'/>
-          <p>“The scholarship I received through EduMorph.Design helped me advance my studies and explore new NFT projects.” - Emily Tran</p>
+          <p>“The scholarship I received through EduMorph helped me advance my studies and explore new NFT projects.” - Emily Tran</p>
         </div>
         <div className={styles.testimonial}>
           <img src='/illustrations.png'/>

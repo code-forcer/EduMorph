@@ -17,7 +17,7 @@ const Footer = () => {
         {/* Contact Info */}
         <div className={styles.contactInfo}>
           <h3>Contact</h3>
-          <p>Email: support@edumorph.design</p>
+          <p>Email: support@EduMorph</p>
           <p>Phone: +1 234 567 890</p>
         </div>
         
@@ -32,7 +32,7 @@ const Footer = () => {
       
       {/* Footer Bottom */}
       <div className={styles.footerBottom}>
-        <p className={styles.copyright}>© 2023 <span>EduMorph.Design</span>. All Rights Reserved</p>
+        <p className={styles.copyright}>© 2023 <span>EduMorph</span>. All Rights Reserved</p>
         <div className={styles.bottomLinks}>
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>

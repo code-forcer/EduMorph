@@ -46,7 +46,7 @@ export default function CourseModulesPage() {
         <aside className={styles.evolutionSection}>
           <h2 className={styles.sectionTitle}>Your NFT Evolution</h2>
           <Image
-            src="/illustrations.png" // Update this path
+            src="/five.jpg" // Update this path
             alt="NFT Evolution"
             width={200}
             height={200}

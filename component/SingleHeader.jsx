@@ -33,8 +33,8 @@ const Header = () => {
       {/* Header */}
       <header className={styles.header}>
         <div className={styles.logoContainer}>
-          <img src="/globe.svg" alt="Logo" className={styles.logo} />
-          <h1 className={styles.siteTitle}>EduMorph.Design</h1>
+          <img src="/sl_021422_48550_27.jpg" alt="Logo" className={styles.logo} />
+          <h1 className={styles.siteTitle}><b>EduMorph</b></h1>
         </div>
 
         {/* Hamburger Icon */}

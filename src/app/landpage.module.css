@@ -1,4 +1,6 @@
-
+.container{
+    font-family: "--font-geist-sans";
+}
 .searchContainer {
     margin: 2rem auto;
     text-align: center;
