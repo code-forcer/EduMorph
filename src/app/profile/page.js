@@ -32,7 +32,7 @@ export default function ProfilePage() {
           <div className={styles.section}>
             <h3 className={styles.sectionTitle}>Progress Overview</h3>
             <div className={styles.graphPlaceholder}><Image src='/graph.jpg'  alt="Graph"
-                width={200}
+                width={120}
                 height={120}/></div>
           </div>
 

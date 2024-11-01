@@ -60,11 +60,11 @@
 }
 .cardWhite img{
     border-radius: 5px;
-    width: 100px;
+  
 }
 .cardGreen img{
     border-radius: 5px;
-    width: 100px;
+  
 }
 .mobileLoginButton {
     display: block;
@@ -175,7 +175,6 @@
 }
 .benefitCards .benefitCard img{
     border-radius: 5px;
-    width: 100px;
 }
 .footer {
     background-color: #333;
